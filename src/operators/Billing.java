@@ -16,6 +16,8 @@ public class Billing {
 		float b=Sc.nextFloat();
 		
 		
-		System.err.println("final bill" +  (a+b));	}
+		System.out.println("final bill " +  (a+b));	
+	Sc.close();	
+	}
 
 }

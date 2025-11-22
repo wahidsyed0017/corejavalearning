@@ -15,6 +15,7 @@ public class movieligible {
 			System.out.println("allowed");
 		}else {
 			System.out.println("not allowed");
+			sc.close();
 		}
 		
 		
