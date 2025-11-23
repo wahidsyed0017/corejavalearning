@@ -17,8 +17,8 @@ public class Studentmarks {
 			System.out.println("pass");
 		}else {
 			System.out.println("fail");
-			
+			sc.close();
 		}
 		
 	}
-};
+}
