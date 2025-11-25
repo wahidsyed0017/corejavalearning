@@ -15,16 +15,22 @@ public class Atmmenue {
 		
 		case 1:
 			System.out.println("Enter account number");
+			break;
 		case 2:
 			System.out.println("withdraw");
+			break;
 		case 3:
 			System.out.println("Balance check");
+			break;
 		case 4:
 			System.out.println("Mini statment");
+			break;
 		case 5:
 			System.out.println("eneter pin");
+			break;
 		case 6:
 			System.out.println("exit  ;    THANKYOU");
+			break;
 			
 			default:
 			System.out.println("login faile");
