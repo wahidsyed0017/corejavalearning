@@ -1,7 +1,7 @@
 package nrt.konic.objectandclass;
 
 public class Car {
-	private static final String Troque = null;
+	
 	// properties
 	String Companyname;
 	String Model;
@@ -18,17 +18,17 @@ System.out.println("model  ;" +  Model);
 System.out.println("Seating  ;" +  Seating);
 System.out.println("Fueltype   ;"  +   Fueltype);
 System.out.println("CC   ; " +  CC);
-System.out.println("Troque ;"  +Troque);
+System.out.println("Troque ;"  +Trouque);
 System.out.println("BHP  ;"  + BHP);
 
-
+	}
 
 
 
 
 
 	
-	}
+	
 
 	
 	
