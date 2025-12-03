@@ -1,20 +1,28 @@
 package Methods;
 
 public class Method3 {
-	public int add() {
-		int a=98;
-		int b=56;
-		int c= a+b;
+	
+//	retuen type with no parameter
+
+	
+	public boolean istrue() {
+		if (25<=34) {
+			return  true;
+		}else {
+			return false;
+		}
+	
 		
-		return c;
 		
 	}
 	public static void main(String[] args) {
 		
 		
 		Method3 method3=new Method3();
-		int so=method3.add();
-		System.out.println("so  :"+  so);
+		
+		boolean sum=method3.istrue();
+		
+		System.out.println("boolean   :"+  sum);
 	}
 		
 

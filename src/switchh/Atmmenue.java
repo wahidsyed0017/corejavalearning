@@ -12,7 +12,7 @@ public class Atmmenue {
 		int option1 =sc.nextInt();
 		switch (option1) {
 		
-		
+				
 		case 1:
 			System.out.println("Enter account number");
 			break;
