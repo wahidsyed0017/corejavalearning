@@ -1,6 +1,5 @@
 package Static;
 
-import Constructors.copy.Hotel;
 
 public class Hotel {
 	
