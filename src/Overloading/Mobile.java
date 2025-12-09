@@ -2,34 +2,20 @@ package Overloading;
 
 public class Mobile {
 	
-
-	
-	void  print1 (long x ) {
-		System.out.println("Recharge : " + x + " "+ "successful" );
-		
+	void recharge (long x) {
+		System.out.println("mobile number :" +  x );
 	}
-	
-	void print2 (long x,String y ) {
-		System.out.println("Recharge : " + x + y + "Successful");
-		
+	void recharge2(long x, int y) {
+		System.out.println("mobile number : " + x + "plan = "  + y);
 	}
-	void print3 (int x,String y) {
-		System.out.println("Recharge :" +  x + y + " " +  "NEW COUPON");
-		
+	void recharge3(long x , int y ,String s) {
+		System.out.println("mobile number : " + x + "plan =" + y + "new coupon =" + s);
 	}
-	
-	
-	
-	
-	
 	public static void main(String[] args) {
-		System.out.println("Recharge successfull for 900000000");
-		Mobile m = new Mobile();
+		Mobile mobile = new Mobile ();
+		System.out.println("Recharge successful for " + mobile.recharge(9000000000L));
 		
-		m.print1(299);
-		m.print2(299, "successful");
-		m.print3(299, "with coupon");
-		
+	
 	}
-
+	
 }

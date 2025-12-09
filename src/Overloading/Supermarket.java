@@ -19,3 +19,4 @@ public static void main(String[] args) {
 	bill.Generatebill3(945);
 }
 }
+
