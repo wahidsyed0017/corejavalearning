@@ -18,7 +18,7 @@ public class Animal {
 		System.out.println("Dog is braking ");
 	}
 }
-public class Animaldetails extends dog {
+public class Animaldetails extends Dog {
 public static void main(String[] args) {
 	Dog d = new Dog ();
 	d.breathing();

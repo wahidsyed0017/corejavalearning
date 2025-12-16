@@ -21,7 +21,7 @@ public class Employee {
 		Company co = new Company("konic", "it", 67687, 900000l, 10000);
 		System.out.println("Company name =" + co.name);
 		System.out.println("Company code =" + co.code);
-		System.out.println("Company deparment =" + co.deparment);ssS
+		System.out.println("Company deparment =" + co.deparment);
 		System.out.println("Company mobile no =" + co.mobilenumber);
 
 		Address ad = new Address("HArinath puram", 524001);

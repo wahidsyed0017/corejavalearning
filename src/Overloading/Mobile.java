@@ -13,7 +13,7 @@ public class Mobile {
 	}
 	public static void main(String[] args) {
 		Mobile mobile = new Mobile ();
-		System.out.println("Recharge successful for " + mobile.recharge(9000000000L));
+		System.out.println("Recharge successful for" + " mobile.recharge((9000000L)");
 		
 	
 	}
